@@ -17,3 +17,15 @@ This repository contains a Bash script to automate the installation and setup of
    ```bash
    git clone https://github.com/yourusername/wordpress-docker-ec2.git
    cd wordpress-docker-ec2
+
+2. Make the script executable:
+   ```bash
+   chmod +x setup-wordpress-docker.sh
+
+3. Run the script:
+   ```bash
+   ./setup-wordpress-docker.sh
+
+4. Access WordPress in your browser:
+   ```bash
+   http://<your-ec2-public-ip>
